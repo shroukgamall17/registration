@@ -20,9 +20,10 @@ const todosSchema =mongoose.Schema(
     userId:{
         type:mongoose.SchemaTypes.ObjectId,
         ref:'User'
-    }
-
-
+    },
+    
+    description:{
+        type :String}
 
 })
 
