@@ -8,7 +8,7 @@ const {getAllTodos,getTodoById ,createNewTodo,updateTodoById} = require('../cont
 
 
 //GET ALL TODOS
-router.get('/',auth,getAllTodos)
+router.get('/allTodos',auth,getAllTodos)
  
  //Get TODO BY ID
  router.get("/:id",getTodoById)
