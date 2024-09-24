@@ -26,8 +26,11 @@ const todosSchema =mongoose.Schema(
     }
 
 
-
-})
+    , 
+    description:{
+        type :String}
+    }
+)
 
 
 const todoModel =mongoose.model('Todo',todosSchema)
