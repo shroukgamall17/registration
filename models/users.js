@@ -21,6 +21,9 @@ required:true},
 role:{
     type:String,
     default:'User'
+}, 
+lastName:{
+    type:String,
 }
 })
 //middleware
